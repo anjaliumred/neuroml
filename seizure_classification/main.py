@@ -30,7 +30,7 @@ def main() -> None:
     # 3. Initialize model, loss function, and optimizer
     model = SeizureNN().to(device)
     criterion = torch.nn.BCELoss()
-    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.0005)
 
     # 4. Train the model with early stopping
     train_with_early_stopping(model, criterion, optimizer, train_loader, val_loader, num_epochs, early_stopping_patience, device, BEST_MODEL_PATH)
