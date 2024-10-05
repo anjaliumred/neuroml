@@ -6,7 +6,7 @@ This project focuses on building a binary classifier using a neural network to r
 ## Dataset
 The dataset used for this project is from the Kaggle competition: **Epileptic Seizure Recognition**. It contains time series EEG data from patients, where each row represents EEG data captured over time, and the last column contains the label indicating whether the data corresponds to an epileptic seizure (1) or not (0).
 
-- **Link to Dataset**: [Epileptic Seizure Recognition on Kaggle](https://www.kaggle.com/datasets/andrewmvd/epileptic-seizure-recognition)
+- **Link to Dataset**: [Epileptic Seizure Recognition on Kaggle](https://www.kaggle.com/datasets/harunshimanto/epileptic-seizure-recognition/data)
 
 ## Model Performance
 The model was evaluated using multiple metrics to assess its performance on the test dataset. Below are the key metrics:
