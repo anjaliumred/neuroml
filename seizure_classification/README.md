@@ -26,5 +26,31 @@ The model was evaluated using multiple metrics to assess its performance on the 
 ### ROC Curve
 Below is the ROC Curve for the trained model:
 
-![screenshot](data/roc.jpg)(
+![screenshot](data/roc.jpg)
+
+## Setup
+
+### Create a Virtual Environment
+
+```bash
+# On Windows
+python -m venv venv
+venv\Scripts\activate
+
+# On Linux/macOS
+python3 -m venv venv
+source venv/bin/activate
+```
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## Running the Project
+This is the entry point for data processing, training and evaluating the model.
+```bash
+python main.py
+```
+
+
 
