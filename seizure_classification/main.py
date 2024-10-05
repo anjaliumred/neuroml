@@ -7,8 +7,8 @@ from src.evaluate import evaluate
 
 # Configuration
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-FILE_PATH = r"C:\Users\mridu\Downloads\archive\Epileptic Seizure Recognition.csv"
-BEST_MODEL_PATH = r"C:\Users\mridu\neuroml\seizure_classification\models\neuro_sc.pth"
+FILE_PATH = r""
+BEST_MODEL_PATH = r""
 num_epochs = 100
 batch_size = 64
 early_stopping_patience = 10
